@@ -426,11 +426,9 @@ now to calculate the greatest common denominator.  We can use this
 code to calculate greatest common numbers of any two numbers just by
 setting their values of a and b.
 
-While we're here, let's just talk a
-little bit about these conditions.
-We've got one condition there (a != b) and
-another condition there (a > b).
-So what is a condition?
+While we're here, let's just talk a little bit about these conditions.
+We've got one condition there (a != b) and another condition there (a
+> b).  So what is a condition?
 
 A condition is basically an expression, just like we had before with a
 - b and things like that, except for these ones we're a condition that
@@ -457,16 +455,14 @@ it's always a single equal sign.
 Python is Lazy
 ==============
 
-now another thing to bear in mind with
-these conditions
-is that they are what's called lazily
-evaluated
-now what do I mean by that probably
-better if I show you with an example
-so let's just
-open another thing so suppose I wanted
+Now another thing to bear in mind with these conditions is that they
+are what's called "lazily evaluated".  Now what do I mean by that?
+Probably better if I show you with an example.
+
+So let's just
+open another thing. So suppose I wanted
 to have a condition that was true
-when x divided by
+when 
 y divided by x is greater than 2
 okay and it doesn't really matter what
 we do
