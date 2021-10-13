@@ -15,5 +15,6 @@ def estimate_pi(iterations):
     # ratio_of_counts ~= area_c / area_sq = pi / 4
     # => pi ~= 4 * ratio_of_counts
     estimates = 4 * in_counts/iterations
+    return estimates
 
 print(estimate_pi(10000))
