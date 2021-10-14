@@ -1,7 +1,10 @@
 from tkinter import *
 
+done = False
 def key(event):
+    global done
     if event.char == 'q':
+        done = True
         rootwindow.destroy()
 
 CANVAS_WIDTH = 300
@@ -17,6 +20,6 @@ canvas.itemconfig(textwidget, text="Success! Tk version: "  + version)
 textwidget2 = canvas.create_text(150, 130, anchor="c")
 canvas.itemconfig(textwidget2, text="Press q to exit")
 
-while True:
+while done == False:
     rootwindow.update()
 
